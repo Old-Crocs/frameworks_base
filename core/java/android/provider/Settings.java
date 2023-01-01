@@ -5553,6 +5553,12 @@ public final class Settings {
         public static final String SWIPE_TO_SCREENSHOT = "swipe_to_screenshot";
 
         /**
+         * Whether to show IME space
+         * @hide
+         */
+        public static final String HIDE_IME_SPACE_ENABLE = "hide_ime_space_enable";
+
+        /**
          * Whether to enable fingerprint wake-and-unlock.
          * @hide
          */
