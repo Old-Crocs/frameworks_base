@@ -126,7 +126,7 @@
                 android:id="@+id/media_seamless_image"
                 android:layout_width="@dimen/qs_seamless_icon_size"
                 android:layout_height="@dimen/qs_seamless_icon_size"
-                android:src="@android:drawable/ic_media_seamless"
+                android:src="@*android:drawable/ic_media_seamless"
                 android:tint="?android:attr/textColorPrimary" />
 
             <TextView
@@ -135,7 +135,7 @@
                 android:id="@+id/media_seamless_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@android:string/ext_media_seamless_action"
+                android:text="@*android:string/ext_media_seamless_action"
                 android:singleLine="true"
                 android:fontFamily="@*android:string/config_headlineFontFamilyMedium"
                 android:textDirection="locale"
